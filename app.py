@@ -58,6 +58,12 @@ def main(page: ft.Page):
     page.add(
         ft.Row(
             [   
+                ft.Text("Choice",size=50)
+            ],
+            alignment=ft.MainAxisAlignment.CENTER,
+            ),
+        ft.Row(
+            [   
                 dec_btn
             ],
             alignment=ft.MainAxisAlignment.CENTER,
